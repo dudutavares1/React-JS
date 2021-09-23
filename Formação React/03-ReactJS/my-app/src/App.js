@@ -1,9 +1,22 @@
 import React from 'react';
+import FormularioCadastro from './components/formularioCadastro';
+import ListaDeNotas from './components/listaDeNotas';
+
+
+
 function App() {
   return (
-   <h1>Meu app react</h1>
-  );
+    <section>
+
+
+      <FormularioCadastro />
+      <ListaDeNotas />
+
+    </section>
+
+
+  )
 }
 //react -> lib
 //React -> ecossistema
-export default App;
+export default App
